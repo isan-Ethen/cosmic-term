@@ -1972,7 +1972,7 @@ source = "git+https://github.com/pop-os/winit.git?tag=iced-xdg-surface-0.13-rc#1
 [[package]]
 name = "dpi"
 version = "0.1.1"
-source = "git+https://github.com/isan-Ethen/winit.git?branch=libredox#3b7e518bcd4a29e956d51699cd0c17389fdc1f6c"
+source = "git+https://github.com/isan-Ethen/winit.git?branch=libredox#d3d740a7ef044d703e2ac006290d7859a707f7e9"
 
 [[package]]
 name = "drm"
@@ -8274,7 +8274,7 @@ dependencies = [
 [[package]]
 name = "winit"
 version = "0.30.5"
-source = "git+https://github.com/isan-Ethen/winit.git?branch=libredox#3b7e518bcd4a29e956d51699cd0c17389fdc1f6c"
+source = "git+https://github.com/isan-Ethen/winit.git?branch=libredox#d3d740a7ef044d703e2ac006290d7859a707f7e9"
 dependencies = [
  "ahash",
  "android-activity",
