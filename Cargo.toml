@@ -44,8 +44,7 @@ git = "https://github.com/pop-os/cosmic-text.git"
 features = ["monospace_fallback", "shape-run-cache"]
 
 [dependencies.libcosmic]
-git = "https://github.com/isan-Ethen/libcosmic.git"
-branch = "update-iced"
+git = "https://github.com/pop-os/libcosmic.git"
 default-features = false
 #TODO: a11y feature crashes file chooser dialog
 features = ["about", "multi-window", "tokio", "winit", "surface-message"]
@@ -65,7 +64,9 @@ inherits = "release"
 debug = true
 
 
-[patch.'https://github.com/pop-os/libcosmic']
-libcosmic = { git = "https://github.com/isan-Ethen/libcosmic.git", branch = "update-iced" }
+# [patch.'https://github.com/pop-os/libcosmic']
 # cosmic-config = { path = "../libcosmic/cosmic-config" }
 # cosmic-theme = { path = "../libcosmic/cosmic-theme" }
+
+[patch."https://github.com/pop-os/winit.git"]
+winit = { git = "https://github.com/isan-Ethen/winit.git", branch = "libredox" }
