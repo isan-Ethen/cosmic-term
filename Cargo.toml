@@ -68,3 +68,7 @@ debug = true
 # libcosmic = { path = "../libcosmic" }
 # cosmic-config = { path = "../libcosmic/cosmic-config" }
 # cosmic-theme = { path = "../libcosmic/cosmic-theme" }
+
+
+[patch.'https://github.com/pop-os/winit']
+winit = { git = "https://github.com/isan-Ethen/winit.git", branch = "redox_event" }
